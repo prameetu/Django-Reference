@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends "app4/base.html" %}
+    {% block body_block %}
+        <h1>WELCOME TO INDEX</h1>
+        <h3>This is index.html example</h3>
+        <h1>{{number | add:'10'}}</h1>
+        <h1>{{text | cut:'hello'}}</h1>
+    {% endblock %}
